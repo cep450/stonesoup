@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5607538738658608939}
   - component: {fileID: 637216130819367472}
+  - component: {fileID: 5599064825977421589}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -43,8 +44,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9fda1be0f47f4d2eb0cd4977c7295a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomAuthor: 
+  roomAuthor: Jaden
   designedRoomFile: {fileID: 0}
   localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
+--- !u!114 &5599064825977421589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196755603412538644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cc9bf8017861e4f830cd58699145a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAuthor: Jaden
+  designedRoomFile: {fileID: 0}
+  localTilePrefabs: []
+  roomGridX: 0
+  roomGridY: 0
+  RoomChoices:
+  - {fileID: 1684084013035132558, guid: 17fc8ae4f52e88841b678c4242493fd5, type: 3}
+  - {fileID: 2948909294069032210, guid: 1d2e11735ad232e4cb0b2a3addc80c45, type: 3}
+  - {fileID: 4970572102880820829, guid: a42674268f98a7a4ca7cd70a490528bc, type: 3}
